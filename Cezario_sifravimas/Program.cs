@@ -4,13 +4,13 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Iveskite zodi: ");
+        Console.WriteLine("Įveskite žodį: ");
         string zodis = Console.ReadLine();
 
-        Console.WriteLine("Iveskite poslinki: ");
+        Console.WriteLine("Įveskite poslinkį: ");
         int poslinkis = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Pasirinkite numerį: \n" + "1. Su masyvu \n" + "2. Su ascii");
+        Console.WriteLine("Pasirinkite Cezario šivravimo būdo numerį: \n" + "1. Su masyvu \n" + "2. Su ascii");
         int pasirinkimas = Convert.ToInt32(Console.ReadLine());
 
         string uzsifruotasZodis = uzsifvravimas(zodis, poslinkis, pasirinkimas);
